@@ -1,10 +1,27 @@
-.body {}
+.body {
+    font-family: "Roboto", sans-serif;
+    background-color: white;
+}
+
+a{
+text-decoration: none;
+}
+
+.s{
+    color: #404BBF;
+}
 
 .header {}
 
 .header-navigation {}
 
-.header-link {}
+.header-link {
+    font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.3em;
+}
 
 .header-list {}
 
@@ -12,26 +29,104 @@
     list-style: none;
 }
 
-.header-item {}
+.studio {
+    color: #2E2F42;
+}
+
+.web {
+    color: #4D5AE5;
+}
+
+.std {
+    color: #2E2F42;
+}
+
+.std:hover,
+.std:focus {
+    background-color: #404BBF;
+        color: #FFFFFF;
+}
+
+.contacts {
+    color: #434455;
+}
+
+.contacts:hover,
+.contacts:focus {
+    color: #404BBF
+}
+.header-item {
+    color: #404BBF;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 1.5em;
+}
 
 .section {}
 
 .section-list {}
 
-.section-item {}
+.section-item {
+    background-color: #FFFFFF;
+}
 
 .section-button {
+    color:#4D5AE5;
+    background-color:#F4F4FD;
+    padding: 0;
+        border: none;
+    font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 1.5em;
     cursor: pointer;
 }
 
 .section-image {}
 
-.section-title3 {}
+.section-title3 {
+    font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2em;
+        color: #434455;
+}
 
-.section-paragraph {}
+.section-paragraph {
+    font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5em;
+        color:#434455;
+}
 
-.footer {}
+.footer {
+    background-color: #2E2F42;
+}
 
-.footer-link {}
+.footer-link {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.2em;
+}
 
-.footer-paragraph {}
+.footer-studio {
+    color: #F4F4FD;
+}
+
+.footer-paragraph {
+    color: #E7E9FC;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5em;
+    letter-spacing: 0.02em;
+}
