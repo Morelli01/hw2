@@ -2,7 +2,12 @@
     font-family: "Roboto", sans-serif;
 }
 
-
+:root{
+    --style-text:'Roboto',
+        sans-serif;
+    --header-color:#2E2F42;
+    --after-title:#434455;
+}
 
 .header {
     background-color: #ffff;
@@ -22,8 +27,17 @@
     list-style: none;
 }
 
+.ht{
+    color: var(--header-color);
+}
+
+.ht:hover,
+.ht:focus {
+    color: #404BBF;
+}
+
 .studio{
-    color: #2E2F42;
+    color: var(--header-color) ;
 }
 
 .web{
@@ -31,12 +45,16 @@
 }
 
 .std{
-    color: #2E2F42;
+    color: var(--header-color) ;
 }
 
 .std:hover,
 .std:focus {
     color: #404BBF;
+}
+
+.st{
+    color: var(--header-color);
 }
 
 .contacts{
@@ -49,6 +67,7 @@
 }
 
 .header-link {
+    text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
@@ -62,7 +81,7 @@
 
 .header-item {
     color: #404BBF;
-    font-family: 'Roboto', sans-serif;
+    font-family:var(--style-text);
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
@@ -70,6 +89,7 @@
 }
 
 a {
+    color:var(--header-color);
     text-decoration: none;
 }
 
@@ -77,12 +97,12 @@ a {
 }
 
 .main-section {
-    background: #2E2F42;
+    background: var(--header-color) ;
 }
 
 .main-section-title1 {
     color: #ffff;
-    font-family: 'Roboto';
+    font-family:var(--style-text);
     font-style: normal;
     font-weight: 600;
     font-size: 56px;
@@ -118,7 +138,7 @@ a {
 .section-item {}
 
 .section-title3 {
-    font-family: 'Roboto', sans-serif;
+    font-family:var(--style-text);
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -126,7 +146,8 @@ a {
 }
 
 .section-after-title3 {
-    font-family: 'Roboto', sans-serif;
+    color: var(--header-color) ;
+    font-family:var(--style-text);
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -139,7 +160,8 @@ a {
 }
 
 .jobs-title2 {
-    font-family: 'Roboto', sans-serif;
+    color: var(--header-color);
+    font-family:var(--style-text);
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
@@ -157,7 +179,8 @@ a {
 }
 
 .team-title2 {
-    font-family: 'Roboto', sans-serif;
+    color: var(--header-color);
+    font-family:var(--style-text);
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
@@ -173,7 +196,8 @@ a {
 .team-image {}
 
 .team-title3 {
-    font-family: 'Roboto', sans-serif;
+    color: var(--header-color);
+    font-family:var(--style-text);
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -181,7 +205,8 @@ a {
 }
 
 .team-after-title3 {
-    font-family: 'Roboto', sans-serif;
+    color: var(--after-title);
+    font-family:var(--style-text);
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -193,6 +218,7 @@ a {
 }
 
 .footer-link {
+    text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -205,7 +231,7 @@ a {
 
 .footer-paragraph {
     color: #E7E9FC;
-    font-family: 'Roboto', sans-serif;
+    font-family:var(--style-text);
     font-style: normal;
     font-weight: 400;
     font-size: 16px;

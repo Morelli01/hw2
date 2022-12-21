@@ -7,6 +7,13 @@ a{
 text-decoration: none;
 }
 
+.ht{}
+
+.ht:hover,
+.ht:focus {
+    color: #404BBF;
+}
+
 .s{
     color: #404BBF;
 }
@@ -16,6 +23,7 @@ text-decoration: none;
 .header-navigation {}
 
 .header-link {
+    text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
         font-style: normal;
         font-weight: 800;
@@ -88,12 +96,12 @@ text-decoration: none;
 .section-image {}
 
 .section-title3 {
-    font-family: 'Roboto', sans-serif;
+        color:#2E2F42;
+        font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2em;
-        color: #434455;
 }
 
 .section-paragraph {
@@ -110,6 +118,7 @@ text-decoration: none;
 }
 
 .footer-link {
+    text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 600;
